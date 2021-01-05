@@ -1,3 +1,5 @@
+mod crawlers;
+use crawlers::*;
 fn main() {
-    println!("Hello, world!");
+    crawler::run();
 }
